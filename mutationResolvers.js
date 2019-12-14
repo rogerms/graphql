@@ -1,3 +1,4 @@
+//@ts-check
 import coursesData from './data'
 
 
@@ -8,7 +9,7 @@ const updateCourseTopic = function({id, topic}) {
           return course;
       }
   });
-  console.log(coursesData);
+  
   return coursesData.filter(course => course.id === id) [0];
 }
 

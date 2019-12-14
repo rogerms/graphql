@@ -1,4 +1,6 @@
+//@ts-check
 import coursesData from './data';
+
 
 const getCourse = function(args) { 
     var id = args.id;
