@@ -1,0 +1,10 @@
+node_modules
+yarn.lock
+*.log
+coverage
+/public/
+dist/
+.idea
+.env
+app/db/config/config.json
+.vscode

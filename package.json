@@ -1,0 +1,34 @@
+{
+  "name": "gql-server",
+  "version": "1.0.0",
+  "description": "test graphql in express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "node",
+    "mocha",
+    "test"
+  ],
+  "author": "Roger Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "eslint": "^6.7.2",
+    "gulp-babel": "^8.0.0",
+    "install": "^0.13.0",
+    "yarn": "^1.21.1"
+  }
+}
